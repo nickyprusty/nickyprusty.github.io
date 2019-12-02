@@ -6,7 +6,7 @@ self.addEventListener('install', function(event) {
               '/',
               './aframe-master.min.js',
               './index.css',
-              './assets/vrvideoedited.MP4',
+              './assets/vrvideoedited.mp4',
               './assets/click.ogg',
               './assets/background3.png'
             ]);
