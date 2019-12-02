@@ -1,0 +1,14 @@
+.bg-bot{
+    background-color: rgba(189, 232, 252, 0.76) !important;
+}
+.bg-user{
+    background-color: rgba(179, 250, 165, 0.555) !important;
+}
+.main-card{
+    height: 100vh;
+    max-height: 100vh;
+   
+}
+.main-card-body{
+    overflow-y: auto;
+}

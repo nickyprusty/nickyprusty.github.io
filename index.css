@@ -1,0 +1,26 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-custom{
+    background-color: #3f51b5
+}
+.navbar {
+    -webkit-box-shadow: 0 10px 6px -6px #999;
+    -moz-box-shadow: 0 10px 6px -6px #999;
+    box-shadow: 0 10px 6px -6px #999;
+
+    /* the rest of your styling */
+}
+.btn-primary{
+    background-color: #3f51b5d3;
+    color: rgb(255, 217, 0);
+    border-color: rgb(143, 141, 141);
+    font-weight: 600
+}
+.card{
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}

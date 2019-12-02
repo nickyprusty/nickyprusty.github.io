@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ClassVR</title>
+    <link rel="icon" href="../../assets/vricon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./reactCourse.css"/>
+    <script src="./reactCourse.js"></script>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-first sticky-top navbar-expand-md bg-custom navbar-dark">
+        <a class="navbar-brand" href="#"><button class="btn btn-primary"><span style="color: white">Class</span>VR</button></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">AR</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">VR</a>
+            </li>   
+            </ul>
+        </div>  
+    </nav>
+    <nav class="navbar navbar-second bg-custom navbar-dark">
+        <a class="navbar-brand" href="../../index.html"><i class="fa fa-arrow-left" style="font-weight: 300;"></i>&nbsp; Creating Modern Web Applications using React</a>
+    </nav>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="row">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="card-image" src="../../assets/courseThumbnail/thumbnail1.png" alt="Card image">
+                                </div>
+                                <div class="col-md-8">
+                                    <a href="#" data-toggle="tooltip" title="Go to classroom" data-placement="right" class="resource-heading" onclick="goToModule('./module1.html')">Introduction to React</a>
+                                    <p><strong>MODULE</strong> | Intermediate</p>
+                                    <p>Gives an introduction to React , its features, comparison with other options and how we can create a react app and modify it as well</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary btn-sm btn-block" onclick="goToModule('./module1.html')">Switch to VR Mode</button>
+                        </div>
+                    </div>
+                </div><br/>
+                <!-- <div class="row">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="card-image" src="../../assets/courseThumbnail/thumbnail11.png" alt="Card image" style="width: 100%;">
+                                </div>
+                                <div class="col-md-8">
+                                    <a href="#" data-toggle="tooltip" title="Go to classroom" data-placement="right" class="resource-heading" onclick="goToModule('./quizModule.html')">React Quiz</a>
+                                    <p><strong>Quiz</strong> | Intermediate</p>
+                                    <p>Checks the learners understanding of React</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary btn-sm btn-block" onclick="goToModule('./quizModule.html')">Switch to VR Mode</button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>

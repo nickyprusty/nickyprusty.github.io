@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+    <link href="./reactChatbot.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./reactChatbot.js"></script>
+    <title>React Bot</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-12 offset-md-2">
+                <div class="card bg-light main-card">
+                    <div class="card-header"><h3>React ChatBot</h3></div>
+                    <div class="card-body main-card-body" id="chat-window">
+                        <div class="row">
+                            <div class="col-10">
+                                <div class="card bg-bot">
+                                    <div class="card-body">
+                                        <i class="fas fa-robot text-primary"></i> &nbsp; Hi Learner! What do you want to ask?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="input-group input-group-lg m-1">
+                                <div class="input-group-prepend" onclick="startSpeech()">
+                                    <span class="input-group-text"><i class="fas fa-microphone text-danger"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Ask a question" id="question" required>
+                                <div class="input-group-append" onclick="askQuestion()" id="askQuestionButton">
+                                    <span class="input-group-text"><i class="fas fa-paper-plane text-primary"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
